@@ -160,6 +160,7 @@ h1 {
     font-weight: 600;
     color: var(--text-color);
     text-decoration: underline;
+}
 
 footer {
     max-width: 1000px;
@@ -198,4 +199,4 @@ footer p {
         flex-direction: column;
         gap: 0.5rem;
     }
-} }
+} 
