@@ -1,45 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Regomoditswe Mafetole</title>
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Regomoditswe Mafetole. WDD 131 Home Page">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Regomoditswe Elizabeth Mafetole. WDD 131 Home Page">
     <meta name="author" content="Regomoditswe Elizabeth Mafetole">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script src="getdates.js" defer></script>
 </head>
+
 <body>
     <header>
         <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
         <nav>
             <a href="https://www.linkedin.com/in/regomoditswe-mafetole-578432367">LinkedIn</a>
             <a href="https://byupw.instructure.com/">I-learn</a>
-            <a href=https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41?lang=eng&id=p10-p13#p10"">Scripture</a>
-            <a href="finalproject">finalproject</a>
+            <a
+                href=https://www.churchofjesuschrist.org/study/scriptures/ot/isa/41?lang=eng&id=p10-p13#p10"">Scripture</a>
+            <a href="finalproject">Final Project</a>
         </nav>
     </header>
 
     <main>
         <h1>Regomoditswe E. Mafetole</h1>
-        <section class="card">
-            <h3>About Me</h3>
-            <p></p>
-        </section>
+            <div class="main-grid">
+                <section class="card About-me">
+                    <h2>About Me</h2>
+                    <div class="About-box">
+                        <img src="images/mypicture.webp" alt="A picture of myself" width="150">
+                        <p>My name is Regomoditswe and I go by Rego. I was born and bred in South Africa. I enjoy listening to music
+                            and
+                            watching movies and I love trying out new foods. I am currently studying Software Development through
+                            BYU-IDAHO. I am
+                            excited to learn more about creating websites. My end goal is to become a professional Software
+                            Developer and further my career in this field.I love going to church and the temple. I enjoy attending
+                            the YSA
+                            class. I love reading sci-fi books and also watching sci-fi and paranormal activities movies and
+                            series's</p>
+                   </div>
+                </section>
+            </div>
 
-        <section class="card">
-            <h3>Web Dev Resources</h3>
-            <p></p>
-        </section>
+            <section class="card South Africa">
+                <h3>Republic of South Africa</h3>
+                <div class="country">
+                    <figure>
+                        <img src="images/country flag.jpeg" alt="A picture of my country flag" width=150>
+                        <figcaption>South Africa</figcaption>
 
-        <footer>
-            <p>&copy; 🌸 <span id="currentyear"></span> 🌸 Regomoditswe Mafetole 🌸 South Africa </p>
-            <p id="lastModified"></p>
-        </footer>
+                        <p>South Africa officially the Republic of South Africa (RSA), is the southernmost country in Africa. Its
+                        nine
+                        provinces are bounded to
+                        the South of coastline that stretches along the South Atlantic and Indian Ocean. South
+                        Africa is known for its
+                        natural beauty, including diverse wildlife and landscapes, rich and complex culture as the "Rainbow
+                        Nation"
+                        with a blend of peoples and
+                        languages, its significant contributions to global sport with rugby and cricket, its deep and important
+                        history, and its role as a major
+                        African economic power.</p>
+                   </figure>
+                </div>
+            </section>
+        </section>
+    
+        <section class="card Resources">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="devtocommunity">Dev.to Community</a></li>
+                <li><a href="smashingmagazine">Smashing Magazine</a></li>
+                <li><a href="csstricks">CSS Tricks</a></li>
+                <li><a href="w3schools">W3 Schools</a></li>
+                <li><a href="udemy">Udemy</a></li>
+                <li><a href="lorempicsumimageplaceholder">Lorem Picsum Image Placeholder</a></li>
+            </ul>
+        </section>
+        
     </main>
+    <footer>
+        <p>&copy; 🌸 <span id="currentyear"></span> 🌸 Regomoditswe Mafetole 🌸 South Africa </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>

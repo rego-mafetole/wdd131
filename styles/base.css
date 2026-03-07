@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-font: 'Roboto', sans-serif;
+    --primary-color: #E8B5BC;
+    --secondary-color: #f5f5f5;
+    --background-color: #F0E7DA;
+    --text-color: #444;
+    --border-color: #bb9bb2;
+}
+
+.course-title {
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    background-color: var(--text-color);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 10px;
+    background-color: var(--border-color);
+    transition: all 0.2s ease;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    transform: translateY(2px);
+    cursor: default;
+}
+
+body {
+    font-family: var(--body-font);
+    font-weight: 400;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.main-grid {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.About-me {
+    flex: 2;
+}
+
+.card {
+    background-color: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+
+}
+
+.About-me h2, .Resources h2 {
+    background-color: var(--border-color);
+    text-align: center;
+    border: 6px;
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+}
+
+.About-me img {
+    width: 180px;
+    border-radius: 6px;
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+.South Africa h3 {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.country {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.country figure {
+    width: 100%;
+}
+
+.country img {
+    width: 70%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+
+.country figcaption {
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.Resources ul {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+.Resources  {
+    
+}
