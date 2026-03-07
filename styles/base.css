@@ -148,3 +148,42 @@ h1 {
 .Resources  {
     
 }
+
+footer {
+    max-width: 1000px;
+    margin: 2rem auto 1rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 6px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .main-grid {
+        flex-direction: column;
+    }
+
+    .About-Me img {
+        width: 100%;
+        max-width: 300px;
+        float: none;
+        margin: 0 auto 15px auto;
+        display: block;
+    }
+
+    .country {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
