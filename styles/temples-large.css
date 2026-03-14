@@ -10,7 +10,7 @@
     header {
         display: grid;
         align-items: center;
-        justify-content: space-between;
+        grid-template-columns: auto 1fr;
     }
 
     nav {
