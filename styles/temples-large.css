@@ -1,0 +1,55 @@
+@media (min-width: 740px) {
+    #menu {
+        display: none;
+    }
+
+    .top-bar {
+        padding: 1rem 1.5rem;
+    }
+    
+    header {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 1.5rem;
+    }
+
+        .navigation li {
+            border-top: none;
+        }
+    
+        .navigation a {
+            padding: 1rem 0.5rem;
+        }
+    
+        main {
+            display: grid;
+            gap: 1.5rem;
+            align-items: start;
+        }
+    
+        main h1 {
+            grid-column: 1 / -1;
+            margin-bottom: 0.5rem;
+        }
+    
+        figure {
+            margin-bottom: 0;
+        }
+    
+        figure img {
+            max-width: 100%;
+        }
+}
