@@ -95,7 +95,7 @@ body {
     padding-top: 20px;
 }
 
-.country-body strong {
+.weather-body strong {
     text-align: right;
     color: var(--black);
 }
