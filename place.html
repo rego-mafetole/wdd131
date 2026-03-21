@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Eiffel Tower</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Regomoditswe Elizabeth Mafetole. WDD 131 Place page.">
+    <meta name="author" content="Regomoditswe Elizabeth Mafetole">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header class="main-header">
+        <h1>France Paris</h1>
+    </header>
+    <main class="content-wrapper">
+        <div class="hero-image">
+            <picture>
+                <source srcset="images/place-hero-large.webp" media="(min-height: 600px)">
+                <source srcset="images/place-hero-medium.webp" media="(min-height: 400px)">
+                <img src="images/place-hero-small.webp" alt="This is a picture of a place I wish to visit someday" width="400" height="200" fetchpriority="high">
+            </picture>
+        </div>
+
+        <section class="country-data">
+            <h2 class="country-title">Country Data</h2>
+            <div class="country-body">
+                 <strong>Area</strong>  
+                 <span>12,012 km²</span>
+                 <strong>Population:</strong>
+                 <span>2,047,602</span>
+                 <strong>Capital:</strong>
+                 <span>Paris</span> 
+                 <strong>Languages:</strong>
+                 <span>French</span> 
+                 <strong>Currency:</strong>
+                 <span>Euro</span>
+                 <strong>Time Zone:</strong>
+                 <span>UTC+1</span>
+                 <strong>Calling Code:</strong>
+                 <span>+33</span>
+                 <strong>Internet TLD:</strong>
+                 <span>.fr</span>
+           </div>
+        </section>
+
+        <section class="weather">
+            <h2 class="weather-title">Weather ⛅</h2>
+            <img src="images/weather-svgrepo-com.svg" alt="" width="50" height="50">
+            <div class="weather-body">
+                <strong>Temperature:</strong>
+                <span>16°C</span>
+                <strong>Conditions:</strong>
+                <span>Partly Cloudy</span>
+                <strong>Wind:</strong>
+                <span>11 km/h</span>
+                <strong>Wind Chill:</strong>
+                <span>N/A</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="currentyear"></span> 🌸 Regomoditswe Mafetole 🌸 South Africa </p>
+            <p id="lastModified"></p>
+        </footer>
+    </main>
+</body>
+</html>
