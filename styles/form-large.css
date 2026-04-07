@@ -1,0 +1,12 @@
+@media(max-width: 480px) {
+    .product-review{
+        width: 100%;
+        border: none;
+    }
+
+    .rating {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}

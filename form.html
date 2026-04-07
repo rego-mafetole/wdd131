@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Regomoditswe Elizabeth Mafetole form project.">
+    <meta name="author" content="Regomoditswe Elizabeth Mafetole">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+
+    <main>
+        <div class="product-review">
+            <h1>Product Review</h1>
+                <form method="get" action="review.html">
+
+                    <label for="product-name">Product Name: </label>
+                    <select name="productName" id="product-name" required>
+                        <option value="" disabled selected>Select a Product...</option>
+                    </select>
+
+                    <fieldset>
+                        <legend>Overall Rating</legend>
+                        <div class="ratings">
+                            <label><input type="radio" name="rating" id="rating1" required>&star;</label>
+                            <label><input type="radio" name="rating" id="rating2" required>&star;&star;</label>
+                            <label><input type="radio" name="rating" id="rating3" required>&star;&star;&star;</label>
+                            <label><input type="radio" name="rating" id="rating4" required>&star;&star;&star;&star;</label>
+                            <label><input type="radio" name="rating" id="rating5" required>&star;&star;&star;&star;&star;</label>
+                        </div>
+                    </fieldset>
+
+                    <label for="install=date">Date of Installation</label>
+                    <input type="date" id="install-date" name="installDate" required>
+
+                    <fieldset>
+                        <legend>Which features did you find useful? (Check all that apply)</legend>
+                        <div class="check-box">
+                            <label><input type="checkbox" id="feature1" name="features" value="durability">Durability</label>
+                            <label><input type="checkbox" id="feature2" name="features" value="ease">Ease of Use</label>
+                            <label><input type="checkbox" id="feature3" name="features" value="perfomance">Performance</label>
+                            <label><input type="checkbox" id="feature4" name="features" value="design">Design</label>
+                        </div>
+                    </fieldset>
+
+                    <label for="review">Written Review (optional)</label>
+                    <textarea name="review" id="review" rows="4"></textarea>
+
+                    <label for="username">Your Name (optional)</label>
+                    <input type="text" id="username" name="username">
+
+                    <input type="submit" value="Post Review" class="submit-btn">
+                </form>
+            
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌸 Regomoditswe Mafetole 🌸 South Africa </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
