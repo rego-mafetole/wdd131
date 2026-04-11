@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #4a90e2;
+    --primary-color: #18395d;
     --secondary-color: #f8fafc;
     --tertiary-color: #718096;
     --card: ;
@@ -93,7 +93,7 @@ label {
 }
 
 .required {
-    color: #235c9d;
+    color: black;
     font-family:'Times New Roman', Times, serif;
 }
 
