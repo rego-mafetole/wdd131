@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,25 +16,53 @@
     <link rel="stylesheet" href="project-large.css">
     <script src="project.js" defer></script>
 </head>
+
 <body>
 
     <header>
         <div class="top-bar">
-            <span class="site-name">Mzanzi Foodie</span>
+            <img src="mzanzi-logo.jpeg" alt="" width="75" height="75">
+            <span class="site-name">
+                <h1>Mzanzi Foodie</h1>
+            </span>
             <button id="menu" type="button" aria-label="Menu">&#9776;</button>
         </div>
         <nav>
             <ul class="navigation">
                 <li><a href="home" class="active">Home</a></li>
-                <li><a href="food">Food For Thought</a></li>
-                <li><a href="places">Places</a></li>
-                <li><a href="contact">Contact Us</a></li>
-                <li><a href="rate">Rate Us</a></li>
+                <li><a href="explore-places.html">Places</a></li>
+                <li><a href="rate-us.html">Rate Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <div class="hero-image">
+            <img src="mzanzi-hero.webp" alt="This is an image representing mzanzi" loading="lazy">
+        </div>
+
+        <section class="intro">
+            <h2>Taste eKasi. Made with Mzanzi Magic.</h2>
+            <p>New to Mzanzi? We've got you. Every spot is local-approved with english menus explained,
+                spice levels marked, and safety notes included. No guesswork, just good food.
+            </p>
+
+            <h3>>Eat Without Fear</h3>
+            <p>We tell you what it is, how spicy, and how to order. No awkward pointing.</p>
+
+            <h3>>Real Local Gems</h3>
+            <p>From township braais to Cape Winelands cafes. Vetted by South Africans.</p>
+
+            <h3>>Cultural Context</h3>
+            <p>Know the story behind pap en vleis, magwinya, and why we share a shisanyama.</p>
+        </section>
+
+        <section class="link">
+            <h2>Photo Gallery</h2>
+            <p>Born in Mzanzi, served for everyone.</p>
+            
+            <a href="explore-places.html" class="button">Explore Places</a>
+        </section>
 
     </main>
 
@@ -41,6 +70,5 @@
         <p>&copy; <span id="currentyear"></span> 🌸 Regomoditswe Mafetole 🌸 South Africa </p>
         <p id="lastModified"></p>
     </footer>
-    
 </body>
 </html>
